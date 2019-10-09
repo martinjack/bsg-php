@@ -9,7 +9,7 @@
         "library"
     ],
     "homepage": "https://github.com/martinjack/bsg-php",
-    "license": "BSD 2-Clause",
+    "license": "MIT",
     "authors": [
         {
             "name": "BSG.WORLD",
