@@ -1,4 +1,31 @@
 {
+    "name": "jackmartin/bsg-php",
+    "type": "library",
+    "description": "BSG.WORLD API library",
+    "keywords": [
+        "api",
+        "sms",
+        "bsg.world",
+        "library"
+    ],
+    "homepage": "https://github.com/martinjack/bsg-php",
+    "license": "BSD 2-Clause",
+    "authors": [
+        {
+            "name": "BSG.WORLD",
+            "homepage": "https://bsg.world"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BSG\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BSG\\Tests\\": "tests/"
+        }
+    },
     "require-dev": {
         "phpunit/phpunit": "^5.7"
     }
