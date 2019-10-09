@@ -10,7 +10,7 @@ $client = $api->getSmsClient();
 
 print_r(
 
-    $clint->sendSms(
+    $client->sendSms(
 
         'phone',
 
